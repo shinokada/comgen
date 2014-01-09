@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://comgen.canacad.ac.jp/</loc>
+</url>
+<url>
+  <loc>http://comgen.canacad.ac.jp/index.php/multipleupload</loc>
+</url>
+<url>
+  <loc>http://comgen.canacad.ac.jp/index.php/multipleupload/howto</loc>
+</url>
+<url>
+  <loc>http://comgen.canacad.ac.jp/index.php/multipleupload/about</loc>
+</url>
+<url>
+  <loc>http://comgen.canacad.ac.jp/index.php/multipleupload/version</loc>
+</url>
+<url>
+  <loc>http://comgen.canacad.ac.jp/index.php/multipleupload/share</loc>
+</url>
+<url>
+  <loc>http://comgen.canacad.ac.jp/index.php/uploadfiles</loc>
+</url>
+<url>
+  <loc>http://comgen.canacad.ac.jp/index.php/upload</loc>
+</url>
+<url>
+  <loc>http://comgen.canacad.ac.jp/index.php/</loc>
+</url>
+</urlset>
