@@ -35,6 +35,7 @@ If you are not using Powerschool, use Microsoft Excel or Google Spreadsheet and 
 
 Download Student Roster Sample CSV file.
 [csv sample](http://comgen.canacad.ac.jp/sample/Samplecsvfile1.csv)
+
 ![sample image](http://comgen.canacad.ac.jp/images/excelsample.png)
 
 The first line is the name of your course, and second line is the titles. You need these two lines. Then you start student names with a format of Lastname,Firstname. You need to save as a csv file.
@@ -85,7 +86,8 @@ Use TextEdit if you are using a Mac. Save your file with ".csv". If you are usin
 Please open this file with TextEdit. This sample explains and demonstrates how to use pipes, |, in a csv file.
 [Sample1 csv](http://comgen.canacad.ac.jp/sample/StudentRostersample.csv)
 This file will create this table.
-![sample csv]http://comgen.canacad.ac.jp/images/samplecsv1.png)
+
+![sample csv](http://comgen.canacad.ac.jp/images/samplecsv1.png)
 
 ## Save your comments
 
