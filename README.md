@@ -39,16 +39,16 @@ Download Student Roster Sample CSV file.
 ![sample image](http://comgen.canacad.ac.jp/images/excelsample.png)
 
 The first line is the name of your course, and second line is the titles. You need these two lines. Then you start student names with a format of Lastname,Firstname. You need to save as a csv file.
-        
-            Section:6(A) Math 6,
-            Student Name,Gender
-            Bush, George,M
-            Curie, Marie,F
-            Gandhi, Indra,F
-            Goodall, Jane,F
-            Earhart, Amelia,F
-            Pitt, Brad,M
-            Obama, Barack,M
+
+    Section:6(A) Math 6,
+    Student Name,Gender
+    Bush, George,M
+    Curie, Marie,F
+    Gandhi, Indra,F
+    Goodall, Jane,F
+    Earhart, Amelia,F
+    Pitt, Brad,M
+    Obama, Barack,M
         
         
 ## How to make your comment/criteria csv to upload (from v1.2)
