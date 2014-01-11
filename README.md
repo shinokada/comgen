@@ -1,4 +1,4 @@
-# Comgen 
+# Comgen v1.2.1 
 
 ## Create student roster csv file through PowerTeacher
 
@@ -51,7 +51,7 @@ The first line is the name of your course, and second line is the titles. You ne
     Obama, Barack,M
         
         
-## How to make your comment/criteria csv to upload (from v1.2)
+## How to make your comment/criteria csv to upload
 
 This allows you to create your own report comments and internal assessment comment as well.
 If you want to use your own criteria to generate comments, you need to create a csv file. You can select only one criterion from each row, please position the same kind of comments in the same row. As you can see the length of the row does not need to be the same.
