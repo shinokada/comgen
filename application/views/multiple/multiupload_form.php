@@ -1,10 +1,25 @@
 <div id="multifirstpage">
     <h1><?php echo $title ?></h1>
-      
-
 <?php echo form_open_multipart('multipleupload/do_upload');?>
 
 <?php
+echo "<div class=\"layer1\">";
+// header Type
+echo "<p class=\"heading\">Type</p>";
+echo "<div class=\"content\">";
+
+    // all in one mode
+    $data = array(
+    'name'        => 'allinone',
+    'id'          => 'allinone',
+    'value'       => TRUE,
+    'checked'     => FALSE,
+    'style'       => 'margin:10px',
+    );
+
+echo form_checkbox($data);
+echo "<p>".anchor('multipleupload/howto#allinone', 'All in One')."<br /></p>\n";
+
 
     // for simple mode
     $data = array(
@@ -26,6 +41,12 @@ echo "<p>".anchor('multipleupload/howto#simplemode', 'Simple Mode')."<br /></p>\
     'checked'     => FALSE,
     'style'       => 'margin:10px',
     );
+
+echo "</div>";// end of type
+
+// start comment block
+echo "<p class=\"heading\">Comments</p>";
+echo "<div class=\"content\">";
 
 echo form_checkbox($data);
 echo "<p>IB General Grade Comments</p><br />\n";
@@ -70,7 +91,24 @@ echo "<p>Generate Learning Goals Comment</p><br />\n";
 echo form_checkbox($data);
 echo "<p>Generate Math Learning Goals Comment</p><br />\n";
 
-echo "<p>";// start student roster file
+// My comment text area
+    $data = array(
+    'name'        => 'mycommentarea',
+    'id'          => 'mycommentarea',
+    'value'       => TRUE,
+    'checked'     => FALSE,
+    'style'       => 'margin:10px',
+    );
+
+echo form_checkbox($data);
+echo "<p>".anchor('multipleupload/howto#mycommentarea', 'My Comment Area')."<br /></p>\n";
+echo "</div>";// end of Comment block
+
+
+//Files
+echo "<p class=\"heading\">Files</p>";
+echo "<div class=\"content\">";
+echo "<p class=\"files\">";// start student roster file
 echo form_label('*Student Roster File', 'userfile');
 $attribute=array(
     'id'=>'userfile1', 
@@ -90,7 +128,7 @@ echo anchor('multipleupload/howto', 'How to Use');
 echo "</u> page for more details. <br />Try it with <u><a href=\"". base_url()."sample/StudentRostersample.csv\" target=\"_blank\">a sample csv file.</a></u>";
 echo "</p></div>";
 // start your criteria file
-echo "<p>";
+echo "<p class=\"files\">";
 echo form_label('Your Criteria', 'userfile1', $attributes); 
 $attribute=array(
     'id'=>'userfile2', 
@@ -103,6 +141,9 @@ echo "<div class=\"small\"><p>If you wish using your own criteria or comments, p
 echo anchor('multipleupload/howto#comcsv', 'How to Use');
 echo "</u><br />";
 echo "Try it with <a href=\"". base_url()."sample/shinmathrubicon.csv\" target=\"_blank\"><u>a sample csv file.</u></a></p></div>";
+echo "</div>";// end of Comment block
+echo "</div>";// end of accordion
+
 
 $submitbtn=array(
   'value'=>'Upload',
@@ -113,13 +154,9 @@ echo "<div id=\"submit\">";
 echo form_submit($submitbtn);    
 echo "</div>";
 ?> 
-        
-
-
         </form>
     </div>
         
-
 <?php
 //$this->load->view("./howto.php");
 //echo $this->lang->line('colpo1');

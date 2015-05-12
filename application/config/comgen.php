@@ -8,7 +8,7 @@
  */
 $config['appname'] = 'ComGen';
 $config['fullappname']='Comment Generator';
-$config['version'] = '1.2.0';
+$config['version'] = '1.2.1';
 $config['author'] = 'Shinichi Okada';
 $config['copyright'] = 'Shinichi Okada';
 $config['builton'] = 'CodeIgniter 2.1.0';

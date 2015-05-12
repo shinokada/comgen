@@ -8,13 +8,15 @@
         echo $this->config->item('version');    
             ?> provides : </p>
         <ul>
+            <li>You can type and add your comment with Learning attitude or other comment banks</li>
+            <li>All in One mode allows you to create all comments in one paragraph</p>
             <li>Simple mode without adding student names in generated comments</li>
             <li>IB General Grade Comments for MYP</li>
             <li>Generate Learning Attitudes Comments</li>
             <li>Generate Learning Goals Comment</li>
-            <li>Generate Math Learning Goals Comment for MYP</li>
+            <li>Generate Math Learning Goals Comment</li>
             <li>Statistics including grades and number of characters</li>
-            <li>You can create your own comments by uploading your own comment file.</li>
+            <li>Create your own comments by uploading your own comment file</li>
         </ul>
       
         <p>

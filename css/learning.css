@@ -316,7 +316,7 @@ border-width:5px;
 }
 
 #multifirstpage p{
-    line-height: 40px;
+    line-height: 1em;
     display: inline;
 }
 #multifirstpage form{
@@ -426,12 +426,14 @@ Menu
     margin:0 auto ;
     padding: 10px;
     background-color: #EBF3EC;
+    overflow: auto;
 }
 
 #footer ul{
     margin: 0 auto;
     padding:0;
     width: 50%;
+    display: inline;
 }
 
 #footer li{
@@ -466,7 +468,7 @@ Menu
     
     padding : 5px 5px 5px 20px;
     position: relative;
-    top:-5px;
+    
     background-color: #eee;
 }
 
@@ -480,4 +482,54 @@ howto page
 ***********/
 #howtocont table{
     margin: 0 auto;
+}
+
+.mycommentarea{
+    margin: 0 0 10px 0;
+}
+
+/*******
+accordion
+**********/
+.layer1 {
+margin: 0;
+padding: 0;
+
+}
+ 
+#multifirstpage .heading {
+margin: 1px;
+color: #fff;
+padding: 5px 10px;
+cursor: pointer;
+position: relative;
+background-color:#003366;
+line-height:1.2em;
+display: block;
+}
+.content {
+background-color:#fafafa;
+}
+
+/******
+Files
+*********/
+#multifirstpage .files{
+    line-height:2em;
+}
+
+
+/*******
+counter
+**********/
+#wrap #counter{
+    float:right;
+     margin: 0;
+    padding: 0;
+}
+
+#counter img{
+    margin: 0 ;
+    padding: 0;
+
 }

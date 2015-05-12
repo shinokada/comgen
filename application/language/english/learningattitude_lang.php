@@ -12,12 +12,12 @@
  */
 $lang['ibgrade']="IB General Grade Descriptors";
 $lang['grade1']="Minimal achievement in terms of the objectives.";
-$lang['grade2']="Very limited achievement against all the objectives. The student has difficulty in understanding the required knowledge and skills and is unable to apply them fully in normal situations, even with support.";
-$lang['grade3']="Limited achievement against most of the objectives, or clear difficulties in some areas. The student demonstrates a limited understanding of the required knowledge and skills and is only able to apply them fully in normal situations with support.";
+$lang['grade2']="Very limited achievement against all the objectives. %s has difficulty in understanding the required knowledge and skills and is unable to apply them fully in normal situations, even with support.";
+$lang['grade3']="Limited achievement against most of the objectives, or clear difficulties in some areas. %s demonstrates a limited understanding of the required knowledge and skills and is only able to apply them fully in normal situations with support.";
 $lang['grade4']="A good general understanding of the required knowledge and skills, and the ability to apply them effectively in normal situations. There is occasional evidence of the skills of analysis, synthesis and evaluation.";
-$lang['grade5']="A consistent and thorough understanding of the required knowledge and skills, and the ability to apply them in a variety of situations. The student generally shows evidence of analysis, synthesis and evaluation where appropriate and occasionally demonstrates originality and insight.";
-$lang['grade6']="A consistent and thorough understanding of the required knowledge and skills, and the ability to apply them in a wide variety of situations. Consistent evidence of analysis, synthesis and evaluation is shown where appropriate. The student generally demonstrates originality and insight.";
-$lang['grade7']="A consistent and thorough understanding of the required knowledge and skills, and the ability to apply them almost faultlessly in a wide variety of situations. Consistent evidence of analysis, synthesis and evaluation is shown where appropriate. The student consistently demonstrates originality and insight and always produces work of high quality.";
+$lang['grade5']="A consistent and thorough understanding of the required knowledge and skills, and the ability to apply them in a variety of situations. %s generally shows evidence of analysis, synthesis and evaluation where appropriate and occasionally demonstrates originality and insight.";
+$lang['grade6']="A consistent and thorough understanding of the required knowledge and skills, and the ability to apply them in a wide variety of situations. Consistent evidence of analysis, synthesis and evaluation is shown where appropriate. %s generally demonstrates originality and insight.";
+$lang['grade7']="A consistent and thorough understanding of the required knowledge and skills, and the ability to apply them almost faultlessly in a wide variety of situations. Consistent evidence of analysis, synthesis and evaluation is shown where appropriate. %s consistently demonstrates originality and insight and always produces work of high quality.";
 
 
 /*
@@ -30,9 +30,9 @@ $lang['col13'] = "%s works toward group goals positively.";
 $lang['col14'] = "%s works positively toward group goals leading or following as the situation demands.";
 
 $lang['col21'] = "%s exhibits off-task behavior and distracts others from their work."; 
-$lang['col22'] = "%s accepts and fulfills individual role and responsibilities within the group with support.";
-$lang['col23'] = "%s accepts and fulfills individual role and responsibilities within the group positively."; 
-$lang['col24'] = "%s accepts and fulfills individual role and responsibilities positively and offers peer support.";
+$lang['col22'] = "%s accepts and fulfills individual roles and responsibilities within the group with support.";
+$lang['col23'] = "%s accepts and fulfills individual roles and responsibilities within the group positively."; 
+$lang['col24'] = "%s accepts and fulfills individual roles and responsibilities positively and offers peer support.";
 
 $lang['col31'] = "%s rarely contributes to the group in a positive manner."; 
 $lang['col32'] = "%s contributes knowledge, opinions, and skills with support.";
@@ -73,7 +73,7 @@ $lang['ind44'] = "%s identifies areas of strength and weakness. %s sets and acts
  */
 $lang['org']="Learning Attitude: Organization";
 $lang['org11'] = "%s rarely prepares with materials for class."; 
-$lang['org12'] = "%s usually prepared with materials for class.";
+$lang['org12'] = "%s is usually prepared with materials for class.";
 $lang['org13'] = "%s comes prepared with all necessary materials for class."; 
 $lang['org14'] = "%s comes prepared with all necessary materials for class.";
 
@@ -82,7 +82,7 @@ $lang['org22'] = "%s usually meets assignment and homework deadlines.";
 $lang['org23'] = "%s almost always meets assignment and homework deadlines."; 
 $lang['org24'] = "%s always meets assignment and homework deadlines.";
 
-$lang['org31'] = "%s rarely able to organize and manage time and work effective."; 
+$lang['org31'] = "%s is rarely able to organize and manage time and work effective."; 
 $lang['org32'] = "%s attempts to organize and manage time and work effectively.";
 $lang['org33'] = "%s organizes and manages time and work effectively."; 
 $lang['org34'] = "%s organizes and manages time in a self-directed manner.";
@@ -101,8 +101,8 @@ $lang['colgo11'] = "%s needs to work toward group goals positively.";
 $lang['colgo12'] = "%s can work positively toward group goals leading or following as the situation demands.";
 
 
-$lang['colgo21'] = "%s needs to accept and fulfills individual role and responsibilities within the group positively."; 
-$lang['colgo22'] = "%s is capable of accepting and fulfilling individual role and responsibilities positively and offers peer support.";
+$lang['colgo21'] = "%s needs to accept and fulfills individual roles and responsibilities within the group positively."; 
+$lang['colgo22'] = "%s is capable of accepting and fulfilling individual roles and responsibilities positively and offers peer support.";
 
 
 $lang['colgo31'] = "%s needs to contribute knowledge, opinions, and skills positively."; 

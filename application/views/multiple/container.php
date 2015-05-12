@@ -6,9 +6,19 @@
       IB, learning attitudes, learning goals, collaboration, Independence and initiative, organization " /> 
 <meta name="google-site-verification" content="kAcY56DycpnI9GX2kdc2QVUp2K2pov6j9QrWGY_3Vic" />
 <link rel='stylesheet' type='text/css' href="<?php echo base_url()."css/learning.css";?>" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url()."js/floating-1.7.js";?>">  
     </script>  
-    
+    <script type="text/javascript">
+jQuery(document).ready(function() {
+  //jQuery(".content").hide();
+  //toggle the componenet with class msg_body
+  jQuery(".heading").click(function()
+  {
+    jQuery(this).next(".content").slideToggle(500);
+  });
+});
+</script>
 </head>
 <body>
     
@@ -33,8 +43,30 @@
         
     $this->load->view($page);
     $this->load->view("multiple/footer.php");
-    
+/*
+    if (isset($visitorscounter))
+    {
+      echo "Online Visitors: ".$visitorscounter;
+    }
+*/
+    //$dbfile = base_url()."counter/visitors.db"; 
+    //$dbfile = base_url()."license.txt"; 
+    //var_dump(is_file($dbfile)) . "\n";
+    //echo $dbfile;
+    //echo (file_exists($dbfile) ? 'File Exists' : "File $dbfile Does Not Exist");
+    /*
+    if (isset($isfile))
+    {
+      echo $isfile;
+    }
+
+    if (isset($fileexist))
+    {
+      echo $fileexist;
+    }
+    */
     ?>
+ 
     </div><!-- end of id="wrap" -->
  
     
@@ -51,6 +83,11 @@
   })();
 
 </script>
+<!-- Begin Users Online -->
+<!-- URL: http://www.twospots.com/free-users-online-counter/ -->
+
+<!-- End Users Online -->
+
     <?php
     /*
  echo   'Basepath: ' . BASEPATH . '<br />'

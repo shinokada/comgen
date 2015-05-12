@@ -22,6 +22,18 @@
             them to the Powerschool.<br />
             Save your file by File > Save Page As in your browser.
         </p> 
+
+        <h2><a name="mycommentarea">My Comment Area</a></h2>
+        <p>
+            If you tick the My Comment Area, it will add a text area for each student so that you 
+            can add your own comment.
+        </p>    
+
+        <h2><a name="allinone">All In One</a></h2>
+        <p>
+            If you tick the All in One mode, it will put all your comments in one comments. Otherwise the Comgen will
+            generate comments by categories.
+        </p>    
         <h2><a name="simplemode">Simple Mode</a></h2>
         <p>
             In normal mode Comgen adds student names and pronouns in a created comment, but simple mode
